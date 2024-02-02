@@ -4,12 +4,40 @@
     background-position: center; /* 画像を中央に配置 */
     width: 100%;
     height: 600px; /* 適切な高さを指定（必要に応じて調整） */
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 100vh;
 }
-
-div.profile-box{
-    width: 50%;
-    height: 900px;
-    padding: 30px;
-    background: #739999;
-    position: relative;/*親要素に記入*/
+.profile div.profile-box {
+    margin-top: 3rem;
+    margin-right: 35rem;
+    background-color: white;
+    width: 50vw;
+    height: 82vh;
+    box-shadow: 10px 10px 0px 0 rgb(62, 62, 74);
+}
+.profile .nomal{
+    font-size:  23px;
+    margin: 0px;
+    margin-left: 30px;
+    font-family: Segoe UI;
+}
+.profile .ruby-text {
+    font-size: 55px; /* テキストサイズの設定 */
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-family: さわらび明朝;
+}
+.profile .title{
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+    font-family: さわらび明朝;
+}
+.profile .hurigana{
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+    font-family: Gabriola;
 }

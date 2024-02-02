@@ -1,3 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header{
+    background: linear-gradient(90deg, #FFD6E5, #FFFBD6);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header p {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header .page_links{
+    margin-left: 30px;
+    width: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .page_links p{
+    margin-left: 40px;
+}
+
+header .sns_links{
+    margin-left: 60px;
+    width: 15%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .instagram{
+    height: 40px;
+    width: 40px;
+}
+
+header .facebook{
+    height: 30px;
+    width: 30px;
+}
+
+/* footer */
+footer{
+    background: linear-gradient(90deg, #FFD6E5, #FFFBD6);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer p{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .office{
+    margin-left: 30px;
+    width: 75%;
+    align-items: center;
+}
+
+footer .office p{
+    margin-left: 60px;
+}
+
+footer .sns_links{
+    margin-left: 60px;
+    width: 15%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .instagram{
+    height: 40px;
+    width: 40px;
+}
+
+footer .facebook{
+    height: 30px;
+    width: 30px;
+}
+
+/* profile */
 .profile {
     background-image: url('../img/DSCF6901.jpg'); /* 画像のURLを指定 */
     background-size: cover; /* 画像を領域に合わせて表示 */

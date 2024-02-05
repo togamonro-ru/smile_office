@@ -139,3 +139,8 @@ footer .facebook{
     text-align: center;
     font-family: Gabriola;
 }
+
+/* Actual */
+.Actual .example{
+    margin: 0px;
+}

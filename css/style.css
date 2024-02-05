@@ -159,11 +159,13 @@ footer .facebook{
 /* Actual */
 .Actual .example{
     margin: 0px;
-  
-//TOPページの画像の調整
+ }
+
+/* TOPページの画像の調整 */  
 #top_img{
     width: 90%;
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    vertical-align: bottom;
 }

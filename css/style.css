@@ -155,6 +155,11 @@ footer .facebook{
     text-align: center;
     font-family: Gabriola;
 }
+
+/* Actual */
+.Actual .example{
+    margin: 0px;
+  
 //TOPページの画像の調整
 #top_img{
     width: 90%;

@@ -1,3 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header{
+    background: linear-gradient(90deg, #FFD6E5, #FFFBD6);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header p {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header .page_links{
+    margin-left: 30px;
+    width: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .page_links p{
+    margin-left: 40px;
+}
+
+header .sns_links{
+    margin-left: 60px;
+    width: 15%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .instagram{
+    height: 40px;
+    width: 40px;
+}
+
+header .facebook{
+    height: 30px;
+    width: 30px;
+}
+
+/* footer */
+footer{
+    background: linear-gradient(90deg, #FFD6E5, #FFFBD6);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer p{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .office{
+    margin-left: 30px;
+    width: 75%;
+    align-items: center;
+}
+
+footer .office p{
+    margin-left: 60px;
+}
+
+footer .sns_links{
+    margin-left: 60px;
+    width: 15%;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .instagram{
+    height: 40px;
+    width: 40px;
+}
+
+footer .facebook{
+    height: 30px;
+    width: 30px;
+}
+
+/* profile */
+.profile {
+    background-image: url('../img/DSCF6901.jpg'); /* 画像のURLを指定 */
+    background-size: cover; /* 画像を領域に合わせて表示 */
+    background-position: center; /* 画像を中央に配置 */
+    width: 100%;
+    height: 600px; /* 適切な高さを指定（必要に応じて調整） */
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 100vh;
+}
+.profile div.profile-box {
+    margin-top: 3rem;
+    margin-right: 35rem;
+    background-color: white;
+    width: 50vw;
+    height: 82vh;
+    box-shadow: 10px 10px 0px 0 rgb(62, 62, 74);
+}
+.profile .nomal{
+    font-size:  23px;
+    margin: 0px;
+    margin-left: 30px;
+    font-family: Segoe UI;
+}
+.profile .ruby-text {
+    font-size: 55px; /* テキストサイズの設定 */
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-family: さわらび明朝;
+}
+.profile .title{
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+    font-family: さわらび明朝;
+}
+.profile .hurigana{
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+    font-family: Gabriola;
+}
+//TOPページの画像の調整
 #top_img{
     width: 90%;
     height: auto;

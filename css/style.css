@@ -194,6 +194,7 @@ footer .facebook{
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    vertical-align: bottom;
 }
 
 /* スマイルトレーナーとは */
@@ -249,7 +250,5 @@ footer .facebook{
     width: 200px;
     height: 200px;
     border-radius:50%;
-}
-    vertical-align: bottom;
 }
 

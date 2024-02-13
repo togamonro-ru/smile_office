@@ -22,22 +22,25 @@ body{
 }
 
 /* header */
-header{
+#header{
     background: linear-gradient(90deg, #FFD6E5, #FFFBD6);
     padding-top: 2px;
     padding-bottom: 2px;
     display: flex;
     justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
-header p {
+#header p {
     font-family: 'Segoe UI';
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-header .page_links{
+#header #page_links{
     margin-left: 30px;
     width: 75%;
     align-items: center;
@@ -45,11 +48,16 @@ header .page_links{
     justify-content: space-around;
 }
 
-header .page_links p{
+#header #page_links a{
+    text-decoration: none;
+    color: black;
+}
+
+#header #page_links p{
     margin-left: 40px;
 }
 
-header .sns_links{
+#header .sns_links{
     margin-left: 60px;
     width: 15%;
     list-style: none;
@@ -58,12 +66,12 @@ header .sns_links{
     justify-content: space-around;
 }
 
-header .instagram{
+#header .instagram{
     height: 40px;
     width: 40px;
 }
 
-header .facebook{
+#header .facebook{
     height: 30px;
     width: 30px;
 }
@@ -114,7 +122,7 @@ footer .facebook{
 }
 
 /* profile */
-.profile {
+#profile {
     background-image: url('../img/DSCF6901.jpg'); /* 画像のURLを指定 */
     background-size: cover; /* 画像を領域に合わせて表示 */
     background-position: center; /* 画像を中央に配置 */
@@ -125,7 +133,7 @@ footer .facebook{
     width: 100vw;
     height: 100vh;
 }
-.profile div .profile-box {
+#profile div .profile-box {
     margin-top: 3rem;
     margin-right: 35rem;
     background-color: white;
@@ -133,25 +141,25 @@ footer .facebook{
     height: 82vh;
     box-shadow: 10px 10px 0px 0 rgb(62, 62, 74);
 }
-.profile .nomal{
+#profile .nomal{
     font-size:  23px;
     margin: 0px;
     margin-left: 30px;
     font-family: Segoe UI;
 }
-.profile .ruby-text {
+#profile .ruby-text {
     font-size: 55px; /* テキストサイズの設定 */
     margin-left: 30px;
     margin-bottom: 30px;
     font-family: さわらび明朝;
 }
-.profile .title{
+#profile .title{
     font-size: 50px;
     margin: 0px;
     text-align: center;
     font-family: さわらび明朝;
 }
-.profile .hurigana{
+#profile .hurigana{
     font-size: 30px;
     margin: 0px;
     text-align: center;
@@ -177,16 +185,19 @@ footer .facebook{
     position: absolute;
     top: 1620px;
     right: 310px;
+    z-index: 10;
 }
 .Actual .class2{
     position: absolute;
     top: 1570px;
     right: 80px;
+    z-index: 10;
 }
 .Actual .class3{
     position: absolute;
     top: 2000px;
     right: 100px;
+    z-index: 10;
 }
 
 /* TOPページの画像の調整 */  
@@ -254,51 +265,51 @@ footer .facebook{
 }
 
 /* メリット */
-.merit{
+#merit{
     background-color: #E5FFBD;
     padding-bottom: 70px;
 }
 
-.merit img{
+#merit img{
     object-fit: cover;
     width: 390px;
     height: 230px;
     border-radius: 50%;
 }
 
-.merit .No1{
+#merit .No1{
     margin-top: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.merit .No2{
+#merit .No2{
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.merit .No3{
+#merit .No3{
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.merit .content{
+#merit .content{
     background-color: white;
     height: 160px;
     width: 450px;
     padding: 10px;
 }
 
-.merit .content .icon{
+#merit .content .icon{
     position: relative;
 }
 
-.merit .content .icon p{
+#merit .content .icon p{
     font-size: 40px;
     color: white;
     background-color: #DB1966;
@@ -308,12 +319,13 @@ footer .facebook{
     padding-left: 27px;
     padding-right: 27px;
     position: absolute;
+    z-index: 10;
     left: -45px;
     top: -80px;
     transform:rotate(-20deg);
 }
 
-.merit .content h3{
+#merit .content h3{
     font-size: 20px;
     font-family: 'Segoe UI';
     color: #DB1966;
@@ -321,7 +333,7 @@ footer .facebook{
     margin-left: 20px;
 }
 
-.merit .content p span{
+#merit .content p span{
     display: block;
     padding: 5px;
 }

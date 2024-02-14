@@ -195,7 +195,7 @@ footer .facebook{
 }
 .Actual .class3{
     position: absolute;
-    top: 2000px;
+    top: 1950px;
     right: 100px;
     z-index: 10;
 }
@@ -262,6 +262,40 @@ footer .facebook{
     width: 200px;
     height: 200px;
     border-radius:50%;
+}
+/*みんなの感想*/
+.impressions{
+    background-color: #F4C9FF;
+    padding-bottom: 40px;
+}
+.impressions .topbox{
+    display: flex;
+}
+.impressions div.impressions-box{
+    margin-top: 3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    width: 30vw;
+    height: 80vh;
+}
+.impressions .impressions-img{
+    margin-left: 35px;
+}
+.impressions .box1{
+    width:280px;
+    height:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background:black;
+    border-radius:30px;
+    color: white;
+    text-align: center;
+}
+.impressions .text{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* メリット */

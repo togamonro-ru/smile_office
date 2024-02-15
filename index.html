@@ -8,25 +8,25 @@
     <script src="js/main.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="page_links">
-            <p>トップ</p>
-            <p>本人紹介</p>
-            <p>講義について</p>
-            <p>メリット</p>
-            <p>流れ</p>
-            <p>お問い合わせ</p>
+    <header id="header">
+        <div id="page_links">
+            <p><a href="#top">トップ</a></p>
+            <p><a href="#profile">本人紹介</a></p>
+            <p><a href="#lecture">講義について</a></p>
+            <p><a href="#merit">メリット</a></p>
+            <p><a href="#flow">流れ</a></p>
+            <p><a href="#inquiry">お問い合わせ</a></p>
         </div>
         <div class="sns_links">
             <p><a href="https://www.instagram.com/smile_haruka_429?igshid=MzRlODBiNWFlZA%3D%3D"><img src="img/instagram.png" alt="インスタグラムアイコン" class="instagram"></a></p>
             <p><a href="https://www.facebook.com/profile.php?id=100003803080614&locale=ja_JP"><img src="img/facebook.png" alt="Facebookアイコン" class="facebook"></a></p>
         </div>
-        </header>
+    </header>
     <main>
         <section class="top">
             <img src="img/h.k_smailtop.png" alt="スマイルトレーナー工藤晴香さんの紹介画像" id='Top_img'>
         </section>
-        <section class="profile">
+        <section id="profile">
             <body>
                 <div class="profile-img">
                     <div class="profile-box">
@@ -50,35 +50,43 @@
         </section>
         <section class="Actual">
             <body>
-                <p class="">Actual introduction!</p>
-                <h1 class="">実績紹介!</h1>
-                <h2>笑顔講座</h2>
+                <p class="engheading">Actual introduction!</p>
+                <h1 class="heading">実績紹介!</h1>
+                <h2 class="content">笑顔講座</h2>
                 <p class="example">岩手県生活衛生指導センター後継者育成塾、愛知県生活衛生指導センター</p>
                 <p class="example">台温泉協同組合、広告会社、自動車整備業、遊技業、結婚式場、ホテル・旅館、</p>
                 <p class="example">飲食店、サークル活動</p>
-                <h2>ホスピタリティーレッスン</h2>
+                <h2 class="content">ホスピタリティーレッスン</h2>
                 <p class="example">エンジニアリング商社、ガス・石油取り扱い業</p>
-                <h2>新入社員研修、ビジネスマナー研修</h2>
+                <h2 class="content">新入社員研修、ビジネスマナー研修</h2>
                 <p class="example">商工会議新入職員研修、土木建設業、石材業</p>
-                <h2>コンサルティング、販促支援</h2>
+                <h2 class="content">コンサルティング、販促支援</h2>
                 <p class="example">ホテル・旅館、飲食店、理美容、クリーニング店</p>
-                <h2>メディア出演</h2>
+                <h2 class="content">メディア出演</h2>
                 <p class="example">NHK盛岡「Iwateen」(面接対策)、「あさイチ」(温泉紹介)</p>
                 <p class="example">テレビ岩手「ニュースプラスワン　特集」</p>
+                <p><img src="img/woman1.jpg" class="class1"></p> 
+                <p><img src="img/woman2.jpg" class="class2"></p> 
+                <p><img src="img/woman3.jpg" class="class3"></p> 
             </body>
         </section>
         <section class="smailtrainer">
             <p class="engheading">What is smiletrainer?</p>
             <h1 class="heading">スマイルトレーナーとは？</h1>
-            <p>笑顔に関する専門的なトレーニングを通して積極的に<strong>笑顔を広る活動</strong>をしています</p>
-            <p>
-                このスマイルトレーニングⓂは、インプレッショントレーニング®の
-                第一人者として、美有姫が30万人以上の方々との交流をとおして、
-                導き出した『笑顔』に特化したスペシャルトレーニングです。アジア人向けに、
-                体系化したこの「笑顔トレーニング」には、笑顔に自信のある方であれば、
-                スマイルトレーニングⓂを行う、【スマイルトレーナー®】への
-                チャンスがどなたにもございます。
-            </p>
+            <div class="catchcopy">
+                <p><span>笑顔に関する専門的なトレーニングを通して</span><span>積極的に<strong>笑顔を広る活動</strong>をしています</span></p>
+            </div>
+            <div class="explanation">
+                <p class="text">
+                    <span>このスマイルトレーニングⓂは、インプレッショントレーニング®の</span>
+                    <span>第一人者として、美有姫が30万人以上の方々との交流をとおして、</span>
+                    <span>導き出した<strong>『笑顔』に特化したスペシャルトレーニング</strong>です。アジア人向けに、</span>
+                    <span>体系化したこの「笑顔トレーニング」には、笑顔に自信のある方であれば、</span>
+                    <span>スマイルトレーニングⓂを行う、<strong>【スマイルトレーナー®】への</strong></span>
+                    <span><strong>チャンスがどなたにもございます。</strong></span>
+                </p>
+                <p><img src="img/smail.jpeg" alt="にこちゃんマーク"></p>
+            </div>
         </section>
         <section class="lecture">
             <p class="engheading">lecture</p>
@@ -101,8 +109,45 @@
                     <button class="open-modal" data-modal="#modal3">新人・社会人研修ー＞</button>
                 </div>
         </section>
-        <section class="merit">
-
+        <section id="merit">
+            <p class="engheading">merit</p>
+            <h1 class="heading">メリットを紹介！</h1>
+            <div class="No1">
+                <div class="content">
+                    <div class="icon"><p>!</p></div>
+                    <h3>メリット１</h3>
+                    <p>
+                        <span>第一印象は一度きり！印象の良い笑顔のやり方</span>
+                        <span>を知って、会って0.5秒でステキと思われたくないですか？</span>
+                        <span>経験と実績を兼ね備えた工藤晴香の講義をぜひ！</span>
+                    </p>
+                </div>
+                <p><img src="img/DSCF1242.jpg" alt="セミナー風景1"></p>
+            </div>
+            <div class="No2">
+                <p><img src="img/DSCF1218.jpg" alt="セミナー風景2"></p>
+                <div class="content">
+                    <div class="icon"><p>!</p></div>
+                    <h3>メリット２</h3>
+                    <p>
+                        <span>実際の経験を生かしたホスピタリティートレーニング！</span>
+                        <span>顧客満足度向上には従業員満足を上げる！</span>
+                        <span>従業員さんが安心して楽しく働いている職場を！</span>
+                    </p>
+                </div>
+            </div>
+            <div class="No3">
+                <div class="content">
+                    <div class="icon"><p>!</p></div>
+                    <h3>メリット３</h3>
+                    <p>
+                        <span>社会人の心構えやビジネスマナーが定着！</span>
+                        <span>研修を受けることで社会人としての自覚が芽生え</span>
+                        <span>責任ある行動ができるようになります！</span>
+                    </p>
+                </div>
+                <p><img src="img/IMG_7656.jpg" alt="セミナー風景3"></p>
+            </div>
         </section>
         <section class="flow">
             <p class="engheading">lecture flow</p>
@@ -153,21 +198,115 @@
         </div>
         </section>
         <section class="impressions">
+            <p class="engheading">Everyone's impressions</p>
+            <h1 class="heading">みんなの感想</h1>
+            <div class="topbox">
+                <div class="impressions-box">
+                    <p><img src="img/smile2.jpg" alt="風景" class="impressions-img"></p>
+                    <div class="box1">
+                        t.kikuchi@twitter
+                    </div>
+                    <p class="text">
+                        スマイルトレーナーセミナーは、笑顔の素晴らしさを学ぶ貴重な機会でした。
+                        参加者同士がポジティブな雰囲気で溢れ、心理学やコミュニケーションの理論
+                        を実践的に学べました。笑顔の力が人間関係や仕事に与える影響に気付き、日常生活
+                        に活かせるテクニックを身につけました。また、自己成長やストレスマネジメントにも役立つ
+                        知識が得られ、心の安定感や幸福度が向上しました。セミナーの雰囲気は明るく、笑顔で満ち溢れており、
+                        参加者同士が互いを励まし合う素晴らしいコミュニティが形成されました。今後も笑顔を大切にし、ポジティブな
+                        姿勢で日々を過ごしていきたいと思います。
+                    </p>
+                </div>
+                <div class="impressions-box">
+                    <p><img src="img/smile2.jpg" alt="風景" class="impressions-img"></p>
+                    <div class="box1">
+                        t.kikuchi@twitter
+                    </div>
+                    <p class="text">
+                        スマイルトレーナーセミナーは、笑顔の持つ力について深く学び、
+                        実践する貴重な機会でした。参加者同士が笑顔でつながり、心の健康や人間関係の向上に向けて
+                        具体的なテクニックを身につけました。セミナーの雰囲気は明るく、学びの場としてだけでなく
+                        、励まし合いや共感の場としても充実していました。笑顔の持つパワーが、
+                        日常生活にどれだけポジティブな影響を与えるかを実感し、
+                        これからも笑顔を大切にしていきたいと思いました。
+                    </p>
+                </div>
+                <div class="impressions-box">
+                    <p><img src="img/smile2.jpg" alt="風景" class="impressions-img"></p>
+                    <div class="box1">
+                        t.kikuchi@twitter
+                    </div>
+                    <p class="text">
+                        スマイルトレーナーセミナーは、笑顔の持つ力について深く学び、
+                        心の健康や人間関係の向上に向けて具体的なテクニックを身につける貴重な機会でした。
+                        参加者同士が笑顔でつながり、心温まる交流を深める中で、
+                        日常生活におけるコミュニケーションスキルやストレスマネジメントの重要性を実感しました。
+                        セミナーの雰囲気は明るく、学びの場としてだけでなく、励まし合いや共感の場としても充実していました。
+                        笑顔の持つパワーが、自己成長やポジティブな思考を促進することを理解しました。さらに、笑顔が人との関係性を強化し、
+                        仕事やプライベートでの成果にも直結することを実感しました。笑顔を大切にし、日々の生活に積極的に取り入れていきたいと心に誓いました。
+                    </p>
+                </div>
+            </div>
+            <div class="topbox">
+                <div class="impressions-box">
+                    <p><img src="img/smile2.jpg" alt="風景" class="impressions-img"></p>
+                    <div class="box1">
+                        t.kikuchi@twitter
+                    </div>
+                    <p class="text">
+                        スマイルトレーナーセミナーでは、笑顔の力を実践的に学びました。
+                        参加者同士が笑顔でつながり、心の健康や人間関係の向上に向けた具体的な方法を習得しました。
+                        セミナーの雰囲気は明るく、笑顔に包まれた温かい交流がありました。笑顔が人との結びつきを深め、
+                        ポジティブな気持ちを醸成することを学びました。また、笑顔がストレスの軽減にも効果的であることを実感しました。
+                        このセミナーを通じて、笑顔が私たちの生活や周りの人々に与える影響の大きさを再認識しました。
+                        今後は、笑顔を意識してより前向きな生活を送りたいと思います。
+                    </p>
+                </div>
+                <div class="impressions-box">
+                    <p><img src="img/smile2.jpg" alt="風景" class="impressions-img"></p>
+                    <div class="box1">
+                        t.kikuchi@twitter
+                    </div>
+                    <p class="text">
+                        スマイルトレーナーセミナーは、笑顔の力を深く理解する良い機会でした。
+                        参加者同士が笑顔でつながり、心の健康や人間関係の向上に向けた具体的なアプローチを学びました。
+                        明るく温かい雰囲気の中で、笑顔が人々を結びつけ、ポジティブな雰囲気を醸成することを実感しました。
+                        このセミナーを通じて、笑顔が私たちの日常生活に与える影響の大きさを再認識し、
+                        今後は積極的に笑顔を取り入れていきたいと思います。
+                    </p>
+                </div>
+                <div class="impressions-box">
+                    <p><img src="img/smile2.jpg" alt="風景" class="impressions-img"></p>
+                    <div class="box1">
+                        t.kikuchi@twitter
+                    </div>
+                    <p class="text">
+                        スマイルトレーナーセミナーでは、笑顔の重要性とその効果について深く理解しました。
+                        参加者同士が笑顔で交流し、心の健康や人間関係の向上に向けた具体的な方法を学びました。
+                        セミナーの雰囲気は明るく温かく、笑顔が溢れる空間でした。笑顔が人とのつながりを深め、
+                        ポジティブな雰囲気を醸成することを実感しました。また、笑顔がストレスの軽減や心の安定にも効果的であることを学びました。
+                        このセミナーを通じて、笑顔が私たちの日常生活に与える影響の大きさを再認識しました。今後は、積極的に笑顔を取り入れて、
+                        自己成長や周囲との良好な関係を築いていきたいと思います。
+                    </p>
+                </div>
+            </div>
 
         </section>
-        <section class="inquiry">
 
+        <section id="inquiry">
+
+          
         </section>
     </main>
     <footer>
         <div class="office">
-            <p>工藤晴香｜h.k smail office</p>
+            <p>工藤晴香｜h.k smile office</p>
         </div>
         <div class="sns_links">
             <p><a href="https://www.instagram.com/smile_haruka_429?igshid=MzRlODBiNWFlZA%3D%3D"><img src="img/instagram.png" alt="インスタグラムアイコン" class="instagram"></a></p>
             <p><a href="https://www.facebook.com/profile.php?id=100003803080614&locale=ja_JP"><img src="img/facebook.png" alt="Facebookアイコン" class="facebook"></a></p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

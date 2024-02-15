@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* 共通部分 */
@@ -12,7 +13,8 @@ body{
 }
 
 .engheading{
-    margin-top: 60px;
+    padding-top: 60px;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-size: 30px;
     font-family: Gabriola;
@@ -20,22 +22,25 @@ body{
 }
 
 /* header */
-header{
+#header{
     background: linear-gradient(90deg, #FFD6E5, #FFFBD6);
     padding-top: 2px;
     padding-bottom: 2px;
     display: flex;
     justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
-header p {
+#header p {
     font-family: 'Segoe UI';
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-header .page_links{
+#header #page_links{
     margin-left: 30px;
     width: 75%;
     align-items: center;
@@ -43,11 +48,16 @@ header .page_links{
     justify-content: space-around;
 }
 
-header .page_links p{
+#header #page_links a{
+    text-decoration: none;
+    color: black;
+}
+
+#header #page_links p{
     margin-left: 40px;
 }
 
-header .sns_links{
+#header .sns_links{
     margin-left: 60px;
     width: 15%;
     list-style: none;
@@ -56,12 +66,12 @@ header .sns_links{
     justify-content: space-around;
 }
 
-header .instagram{
+#header .instagram{
     height: 40px;
     width: 40px;
 }
 
-header .facebook{
+#header .facebook{
     height: 30px;
     width: 30px;
 }
@@ -112,7 +122,7 @@ footer .facebook{
 }
 
 /* profile */
-.profile {
+#profile {
     background-image: url('../img/DSCF6901.jpg'); /* 画像のURLを指定 */
     background-size: cover; /* 画像を領域に合わせて表示 */
     background-position: center; /* 画像を中央に配置 */
@@ -123,7 +133,7 @@ footer .facebook{
     width: 100vw;
     height: 100vh;
 }
-.profile div .profile-box {
+#profile div .profile-box {
     margin-top: 3rem;
     margin-right: 35rem;
     background-color: white;
@@ -131,25 +141,25 @@ footer .facebook{
     height: 82vh;
     box-shadow: 10px 10px 0px 0 rgb(62, 62, 74);
 }
-.profile .nomal{
+#profile .nomal{
     font-size:  23px;
     margin: 0px;
     margin-left: 30px;
     font-family: Segoe UI;
 }
-.profile .ruby-text {
+#profile .ruby-text {
     font-size: 55px; /* テキストサイズの設定 */
     margin-left: 30px;
     margin-bottom: 30px;
     font-family: さわらび明朝;
 }
-.profile .title{
+#profile .title{
     font-size: 50px;
     margin: 0px;
     text-align: center;
     font-family: さわらび明朝;
 }
-.profile .hurigana{
+#profile .hurigana{
     font-size: 30px;
     margin: 0px;
     text-align: center;
@@ -158,8 +168,37 @@ footer .facebook{
 
 /* Actual */
 .Actual .example{
+    font-size: 22px;
     margin: 0px;
- }
+    margin-left: 60px;
+}
+.Actual .content{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 55px;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0,0,0,0) 70%, rgba(228, 216, 54, 0.7) 70%);
+}
+.Actual .class1{
+    position: absolute;
+    top: 1620px;
+    right: 310px;
+    z-index: 10;
+}
+.Actual .class2{
+    position: absolute;
+    top: 1570px;
+    right: 80px;
+    z-index: 10;
+}
+.Actual .class3{
+    position: absolute;
+    top: 1950px;
+    right: 100px;
+    z-index: 10;
+}
 
 /* TOPページのcss */  
 #Top_img{
@@ -232,4 +271,167 @@ footer .facebook{
     height: 100px;
     margin: auto;
     display: block;
+}
+
+/* スマイルトレーナーとは */
+.smailtrainer{
+    background-color: #FFBC9E;
+    padding-bottom: 40px;
+}
+
+.smailtrainer .catchcopy {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.smailtrainer .catchcopy p{
+    font-family: さわらび明朝;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    background-color: #7E5A4A;
+}
+
+.smailtrainer .catchcopy strong{
+    color: #FFFEAC;
+}
+
+.smailtrainer .catchcopy span{
+    display: block;
+}
+
+.smailtrainer .explanation{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.smailtrainer .explanation .text{
+    font-family: さわらび明朝;
+    background-color: #FCFBB0;
+    padding: 15px;
+}
+
+.smailtrainer .explanation .text strong{
+    background-color: #F4C9FF;
+}
+
+.smailtrainer .explanation .text span{
+    display: block;
+}
+
+.smailtrainer .explanation img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+/*みんなの感想*/
+.impressions{
+    background-color: #F4C9FF;
+    padding-bottom: 40px;
+}
+.impressions .topbox{
+    display: flex;
+}
+.impressions div.impressions-box{
+    margin-top: 3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    width: 30vw;
+    height: 80vh;
+}
+.impressions .impressions-img{
+    margin-left: 35px;
+}
+.impressions .box1{
+    width:280px;
+    height:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background:black;
+    border-radius:30px;
+    color: white;
+    text-align: center;
+}
+.impressions .text{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* メリット */
+#merit{
+    background-color: #E5FFBD;
+    padding-bottom: 70px;
+}
+
+#merit img{
+    object-fit: cover;
+    width: 390px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+#merit .No1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#merit .No2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#merit .No3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#merit .content{
+    background-color: white;
+    height: 160px;
+    width: 450px;
+    padding: 10px;
+}
+
+#merit .content .icon{
+    position: relative;
+}
+
+#merit .content .icon p{
+    font-size: 40px;
+    color: white;
+    background-color: #DB1966;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 27px;
+    padding-right: 27px;
+    position: absolute;
+    z-index: 10;
+    left: -45px;
+    top: -80px;
+    transform:rotate(-20deg);
+}
+
+#merit .content h3{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    color: #DB1966;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+#merit .content p span{
+    display: block;
+    padding: 5px;
 }

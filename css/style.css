@@ -371,3 +371,55 @@ footer .facebook{
     display: block;
     padding: 5px;
 }
+
+/* inquiry */
+
+#inquiry .form{
+    text-align: center;
+}
+
+#inquiry span{
+    color: #DB1966;
+    position: relative;
+    right: 120px;
+}
+
+#inquiry input.name{
+    position: relative;
+    right: 15px;
+    width: 215px;
+}
+
+#inquiry input.mail{
+    position: relative;
+    right: 47px;
+    width: 215px;
+}
+
+#inquiry input.tel{
+    position: relative;
+    right: 23px;
+    width: 215px;
+}
+
+#inquiry textarea.contact{
+    position: relative;
+    right: 54px;
+}
+
+#inquiry textarea{
+    resize: none;
+}
+
+#inquiry .textarea{
+    position: relative;
+    top: -120px;
+}
+
+#inquiry button{
+    color: #DB1966;
+    background-color: white;
+    border-width: thin;
+    width: 100px;
+    padding: 10px;
+}

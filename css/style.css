@@ -208,7 +208,7 @@ footer .facebook{
     display: block;
 }
 /* 講義ページのcss */
-.lecture{
+#lecture{
     background-color: #D6F7FF;
     padding-bottom: 1%;
 }
@@ -242,7 +242,7 @@ footer .facebook{
     object-fit: cover;
     padding: 5%;
 }
-.flow{
+#flow{
     background-color: #FFFBD6;
     padding: 0 10% 10% 10%;
     padding-bottom: 5%;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>工藤晴香｜h.k smail office</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header id="header">
@@ -22,8 +23,8 @@
         </div>
     </header>
     <main>
-        <section id="top">
-            <img src="img/h.k_smailtop.png" alt="スマイルトレーナー工藤晴香さんの紹介画像"id='top_img'>
+        <section class="top">
+            <img src="img/h.k_smailtop.png" alt="スマイルトレーナー工藤晴香さんの紹介画像" id='Top_img'>
         </section>
         <section id="profile">
             <body>
@@ -87,8 +88,26 @@
                 <p><img src="img/smail.jpeg" alt="にこちゃんマーク"></p>
             </div>
         </section>
-        <section id="lecture">
-
+        <section class="lecture">
+            <p class="engheading">lecture</p>
+            <h1 class="heading">講義</h1>
+            <p id="Lecture_Introduction">
+                紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文
+                紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文紹介文
+            </p>
+            <div id="Lecture_descriptions">
+                <div class="Lecture_description">
+                    <img src="img/DSCF1234.jpg" alt="スマイルトレーニングの画像" id="Lecture_img1">
+                    <button class="open-modal" data-modal="#modal1">スマイルトレーニングー＞</button>
+                </div>
+                <div class="Lecture_description">
+                    <img src="img/セミナー風景1.JPG" alt="ホスピタリティートレーディングの画像" id="Lecture_img2">
+                    <button class="open-modal" data-modal="#modal2">ホスピタリティートレーディングー＞</button>
+                </div>
+                <div class="Lecture_description">
+                    <img src="img/スマイル研修.jpg" alt="新人・社会人研修の画像" id="Lecture_img3">
+                    <button class="open-modal" data-modal="#modal3">新人・社会人研修ー＞</button>
+                </div>
         </section>
         <section id="merit">
             <p class="engheading">merit</p>
@@ -130,8 +149,53 @@
                 <p><img src="img/IMG_7656.jpg" alt="セミナー風景3"></p>
             </div>
         </section>
-        <section id="flow">
-
+        <section class="flow">
+            <p class="engheading">lecture flow</p>
+            <h1 class="heading">講義の流れ</h1>
+            <div class="flow_content" >
+                <p class="flow_title">マインドUPトレーニング</p>
+                <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <div class="flow_img_list">
+                    <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                    <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                    <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                </div>
+            </div>
+            <img src="img/arrow.png" alt="矢印の画像" class="arrow_img">
+            <div class="flow_content">
+                <p class="flow_title">インプレッショントレーニング</p>
+                <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <div  class="flow_img_list">
+                    <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                    <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                    <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                </div>
+            </div>
+            <img src="img/arrow.png" alt="矢印の画像" class="arrow_img">
+            <div class="flow_content">
+                <p class="flow_title">グループワーク</p>
+                <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <div  class="flow_img_list" id="last_img">
+                <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+                <img src="img/セミナー画像.jpg" alt="セミナー中の画像" class="flow_img">
+            </div>
+        </div>
         </section>
         <section class="impressions">
             <p class="engheading">Everyone's impressions</p>

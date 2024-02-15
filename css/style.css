@@ -210,7 +210,7 @@ footer .facebook{
 /* 講義ページのcss */
 .lecture{
     background-color: #D6F7FF;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 #Lecture_Introduction{
     max-width: 60%;
@@ -244,6 +244,7 @@ footer .facebook{
 }
 .flow{
     background-color: #FFFBD6;
+    padding: 0 10% 10% 10%;
     padding-bottom: 5%;
 }
 .flow_img_list{
@@ -253,6 +254,7 @@ footer .facebook{
     width: 200px;
     height: auto;
     padding: 5%;
+    margin: 0 auto;
 }
 .flow_title{
     color: #FFF;
@@ -260,11 +262,11 @@ footer .facebook{
     border-radius: 30px;
     text-align: center;
     width: 250px;
+    margin: 0 auto;
 }
 .flow_content{
     background-color: #FFF;
     border: solid 1px;
-    margin: 3%;
 }
 .arrow_img{
     width: auto;
